@@ -1,8 +1,9 @@
+import { Link, Outlet } from "react-router-dom";
 
 export default function App() {
   return (
     <>
-      <h2>List of links goes here</h2>
+      <Outlet />
     </>
   );
 }
